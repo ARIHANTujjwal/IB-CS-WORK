@@ -1,0 +1,26 @@
+CLOUD SERVER LOG ANALYSIS REPORT
+Valid records: 2351
+Successful requests (200): 666
+Error responses (400 or above): 1207
+Overall average: 603.12 ms
+
+Per-server latency breakdown
+SRV-01: 226 requests, average 591.73 ms
+SRV-02: 264 requests, average 605.13 ms
+SRV-10: 249 requests, average 609.22 ms
+SRV-09: 217 requests, average 609.68 ms
+SRV-08: 236 requests, average 634.18 ms
+SRV-03: 232 requests, average 605.26 ms
+SRV-04: 228 requests, average 594.03 ms
+SRV-05: 224 requests, average 572.01 ms
+SRV-06: 234 requests, average 632.78 ms
+SRV-07: 241 requests, average 575.69 ms
+
+Latency alerts
+Threshold (overall average): 603.12 ms
+ALERT: SRV-02 averages 605.13 ms
+ALERT: SRV-10 averages 609.22 ms
+ALERT: SRV-09 averages 609.68 ms
+ALERT: SRV-08 averages 634.18 ms
+ALERT: SRV-03 averages 605.26 ms
+ALERT: SRV-06 averages 632.78 ms
